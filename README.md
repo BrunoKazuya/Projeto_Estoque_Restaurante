@@ -85,12 +85,12 @@ Crie a estrutura do projeto Django no diretório atual:
 
 
 9.**Aplique as migrações no banco de dados**:
-    ```bash 
-    python manage.py makemigrations
-    
-    ```bash 
-    python manage.py migrate
-
+      ```bash
+   python manage.py makemigr
+   
+      ```bash
+      python manager.py migrate
+      
 10. **Execute o servidor de desenvolvimento**:
     ```bash
        python manage.py runserver
