@@ -44,9 +44,9 @@ Para rodar o projeto em sua máquina, você precisa ter:
 ## **Instalação e Configuração**
 
 1. **Clone o repositório**:
-   ```bash
-   git clone <URL_DO_REPOSITORIO>
-   cd <NOME_DA_PASTA_DO_PROJETO>
+```bash
+git clone <URL_DO_REPOSITORIO>
+cd <NOME_DA_PASTA_DO_PROJETO>
 
 2. **Instale o Suporte para Ambientes Virtuais**:
    ```bash
