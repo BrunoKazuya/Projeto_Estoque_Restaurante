@@ -62,6 +62,7 @@ Para rodar o projeto em sua máquina, você precisa ter:
    .venv\Scripts\activate #windows
 
 5. **Configure o Ambiente no Editor de Código (VSCode)**:
+   
    Ctrl+Shift+P
    Digite "Python: Select Interpreter".
    selecione o ambiente virtual na pasta do projeto que começa com ./.venv ou .\.venv
@@ -72,22 +73,22 @@ Para rodar o projeto em sua máquina, você precisa ter:
 
 
 7.**Instale o Django no ambiente virtual**
-      ```bash
+    ```bash
    python -m pip install django
 
 8.**Crie o Projeto Django**
-      ```bash
+   ```bash
    django-admin startproject (nome_do_seu_projeto)
 
 9.**Aplique as migrações no banco de dados**:
-      ```bash
+   ```bash
    python manage.py makemigrations
 
-      ```bash
+   ```bash
    python manage.py migrate
 
 10. **Execute o servidor de desenvolvimento**:
-      ```bash
+   ```bash
    python manage.py runserver
 
 11. **Execute o servidor de desenvolvimento**:
