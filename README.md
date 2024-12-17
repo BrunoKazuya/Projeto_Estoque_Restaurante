@@ -75,12 +75,11 @@ Para rodar o projeto em sua máquina, você precisa ter:
    ```bash
    python -m pip install django
 
-8. **Crie o Projeto Django**
+8.**Crie o Projeto Django**
    ```bash
-    django-admin startproject (nome_do_seu_projeto)
+   django-admin startproject (nome_do_seu_projeto)
 
-
-9. **Aplique as migrações no banco de dados**:
+9.**Aplique as migrações no banco de dados**:
    ```bash
    python manage.py makemigrations
 
