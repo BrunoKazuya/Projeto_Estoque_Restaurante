@@ -44,22 +44,23 @@ Para rodar o projeto em sua máquina, você precisa ter:
 ## **Instalação e Configuração**
 
 1. **Clone o repositório**:
-```bash
-git clone <URL_DO_REPOSITORIO>
-cd <NOME_DA_PASTA_DO_PROJETO>
+   ```bash
+      git clone <URL_DO_REPOSITORIO>
+      cd <NOME_DA_PASTA_DO_PROJETO>
 
 2. **Instale o Suporte para Ambientes Virtuais**:
    ```bash
-   sudo apt-get install python3-venv
+      sudo apt-get install python3-venv
 
 3. **Crie um ambiente virtual**:
     ```bash
-    python3 -m venv .venv
+       python3 -m venv .venv
 
 4. **Ative o Ambiente Virtual**:
    ```bash
-   source .venv/bin/activate #mac/linux
-   .venv\Scripts\activate #windows
+      source .venv/bin/activate #mac/linux
+      .
+   venv\Scripts\activate #windows
 
 5. **Configure o Ambiente no Editor de Código (VSCode)**:
    
@@ -69,12 +70,12 @@ cd <NOME_DA_PASTA_DO_PROJETO>
 
 6. **Atualize o Gerenciador de Pacotes (pip)**
    ```bash
-    python -m pip install --upgrade pip
+      python -m pip install --upgrade pip
 
 
 7.**Instale o Django no ambiente virtual**
     ```bash
-    python -m pip install django
+       python -m pip install django
 
 8.**Crie o Projeto Django**
    ```bash
