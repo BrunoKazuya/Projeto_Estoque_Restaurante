@@ -74,23 +74,22 @@ Para rodar o projeto em sua máquina, você precisa ter:
 
 
 7.**Instale o Django no ambiente virtual**
-   ```bash
-   python -m pip install django
+      ```bashpython 
+      -m pip install django
 
 8.**Crie o Projeto Django**
-   ```bash
-   django-admin startproject (nome_do_seu_projeto)
+      ```bashd
+      jango-admin startproject (nome_do_seu_projeto)
 
 9.**Aplique as migrações no banco de dados**:
-   ```bash
-   python manage.py makemigrations
-
-   ```bash
-   python manage.py migrate
+      ```bash 
+      python manage.py makemigrations
+      ```bash 
+      python manage.py migrate
 
 10. **Execute o servidor de desenvolvimento**:
-   ```bash
-   python manage.py runserver
+    ```bash
+       python manage.py runserver
 
 11. **Execute o servidor de desenvolvimento**:
    Abra o navegador e acesse:
