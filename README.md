@@ -89,8 +89,6 @@ Gere e aplique as migrações necessárias no banco de dados:
 
    ```bash
    python manage.py makemigrations
-
-   ```bash
    python manage.py migrate
       
 10. **Execute o servidor de desenvolvimento**:
