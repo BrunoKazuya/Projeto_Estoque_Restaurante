@@ -121,8 +121,7 @@ Crie a estrutura do projeto Django no diretório atual:
 
 
 Autores
-
-    Bruno Kazuya
-    Douglas Pereyra
-    Henrique Zucoloto
-    Renato Calacina
+Bruno Kazuya
+Douglas Pereyra
+Henrique Zucoloto
+Renato Calacina
