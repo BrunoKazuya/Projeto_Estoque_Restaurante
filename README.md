@@ -73,13 +73,16 @@ Para rodar o projeto em sua máquina, você precisa ter:
       python -m pip install --upgrade pip
 
 
-7.**Instale o Django no ambiente virtual**
-      ```bash
-         python -m pip install django
+7. **Instale o Django no ambiente virtual**
+Instale o Django no ambiente virtual ativo.
+   ```bash
+   python -m pip install django
+      
+8. **Crie o Projeto Django**
+Crie a estrutura do projeto Django no diretório atual:
+   ```bash
+   django-admin startproject nome_do_seu_projeto
 
-8.**Crie o Projeto Django**
-      ```bashd
-       jango-admin startproject (nome_do_seu_projeto)
 
 9.**Aplique as migrações no banco de dados**:
       ```bash 
