@@ -74,8 +74,8 @@ Para rodar o projeto em sua máquina, você precisa ter:
 
 
 7.**Instale o Django no ambiente virtual**
-      ```bashpython 
-         -m pip install django
+      ```bash
+         python -m pip install django
 
 8.**Crie o Projeto Django**
       ```bashd
